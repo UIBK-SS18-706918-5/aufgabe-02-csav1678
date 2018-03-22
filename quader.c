@@ -3,7 +3,7 @@
 
 int main(int argc, char ** argv) {
 	float a, b, c;
-
+        if (argc == 4) {
 	// Einlesen der Seitenlängen
 	a = atof(argv[1]);
 	b = atof(argv[2]);
@@ -18,6 +18,8 @@ int main(int argc, char ** argv) {
 	// Ausgabe
 	printf("Ein Quader mit den Seitenlängen %f, %f und %f hat die Oberfläche %f\n",
 		a, b, c, oberflaeche);
-
+}
+        else{ printf("LOL 3 variables needed not 4 or 2 exactly 3 ok ;)");
+}
 	return 0;
 }
