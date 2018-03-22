@@ -19,7 +19,7 @@ printf("Für negative Zahlen ist die Fakultät nicht definiert!\n");
 }
 else if(zahl == 0)
 {
-printf("Die Fakultät %i von ist 1\n");
+printf("Die Fakultät %i von ist 1\n",zahl);
 }
 else{ 
 fakultaet = 1;
@@ -29,24 +29,13 @@ fakultaet *= loop;
 } 
 
 printf("\nDie Fakultaet von %d ist %i\n", zahl , fakultaet);
-printf("Anzahl der Bytes von zahl: %i\n", sizeof(zahl)); 
+printf("Anzahl der Bytes von zahl: %lu\n", sizeof(fakultaet)); 
 }
 
 //Ab Zahlen größer 12 funktioniert dieses Programm nicht mehr!
 
 return  0;
 }
-
-
- 
- 
-
-
- 
-
-
-
-
 
 
 
